@@ -1,4 +1,5 @@
-import React, { View, Text } from 'react-native';
+import React, { View, Text
+} from 'react-native';
 
 import styles from './styles/default';
 
