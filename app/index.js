@@ -5,7 +5,7 @@ import styles from './styles/default';
 const TwoByTwoCards = React.createClass({
   render() {
     return (
-      <View style={[styles.container, { flexDirection: 'row' }]}>
+      <View style={[styles.container, {flexDirection: 'row' }]}>
         <View style={{ flex: 1 }}>
           <View style={styles.matrixInner}><Text>One</Text></View>
           <View style={styles.matrixInner}><Text>Two</Text></View>
