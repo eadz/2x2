@@ -7,4 +7,10 @@ export default StyleSheet.create({
     alignItems: 'center',
     backgroundColor: '#F5FCFF',
   },
+  matrixInner: {
+    flex: 1,
+  },
+  matrixOuter: {
+    
+  }
 });
