@@ -1,5 +1,4 @@
-import React, { View, Text
-} from 'react-native';
+import React, { View, Text, TextInput} from 'react-native';
 
 import styles from './styles/default';
 
@@ -9,7 +8,7 @@ const TwoByTwoCards = React.createClass({
       <View style={[styles.container, {flexDirection: 'row' }]}>
         <View style={{ flex: 1 }}>
           <View style={styles.matrixInner}><Text>One</Text></View>
-          <View style={styles.matrixInner}><Text>Two</Text></View>
+          <View style={styles.matrixInner  }><Text>Two</Text></View>
         </View>
         <View style={{flex: 1}}>
           <View style={styles.matrixInner}><Text>Three</Text></View>
