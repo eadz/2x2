@@ -1,4 +1,4 @@
-import React, { View, Text, TextInput, Image } from 'react-native';
+import React, { View, Text, TextInput, Image, View, Re } from 'react-native';
 
 import styles from './styles/default';
 
@@ -6,7 +6,7 @@ const TwoByTwoCards = React.createClass({
   render() {
 
 
-    
+
     return (
       <View style={[styles.container, {flexDirection: 'row' }]}>
         <View style={{ flex: 1 }}>
